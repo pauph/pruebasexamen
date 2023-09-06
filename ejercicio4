@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int numero;
+    printf("Dame un numero\n");
+    scanf("%d\n", &numero);
+    int contador = 1;
+    int suma = 0;
+    while (contador <= numero){
+        suma = suma + contador;
+        contador++;
+        
+    }
+    printf("La suma es %d", suma);
+    
+    return 0;
+}
